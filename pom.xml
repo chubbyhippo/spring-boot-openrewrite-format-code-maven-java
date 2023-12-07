@@ -57,6 +57,7 @@
 			<plugin>
 				<groupId>org.openrewrite.maven</groupId>
 				<artifactId>rewrite-maven-plugin</artifactId>
+<!--				https://github.com/openrewrite/rewrite-maven-plugin/releases-->
 				<version>5.15.2</version>
 				<configuration>
 					<activeRecipes>
