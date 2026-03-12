@@ -1,0 +1,3 @@
+```shell
+mvn rewrite:run 
+```
