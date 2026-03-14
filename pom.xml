@@ -58,11 +58,13 @@
 				<groupId>org.openrewrite.maven</groupId>
 				<artifactId>rewrite-maven-plugin</artifactId>
 <!--				https://github.com/openrewrite/rewrite-maven-plugin/releases-->
-				<version>6.33.0</version>
+				<version>6.32.0</version>
 				<configuration>
 					<exportDatatables>true</exportDatatables>
 					<activeRecipes>
 						<recipe>org.openrewrite.java.spring.boot4.UpgradeSpringBoot_4_0</recipe>
+						<recipe>org.openrewrite.java.format.AutoFormat</recipe>
+						<recipe>org.openrewrite.java.RemoveUnusedImports</recipe>
 					</activeRecipes>
 				</configuration>
 				<dependencies>
