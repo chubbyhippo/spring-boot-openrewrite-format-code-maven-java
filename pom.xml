@@ -62,7 +62,7 @@
 				<configuration>
 					<exportDatatables>true</exportDatatables>
 					<activeRecipes>
-						<recipe>org.openrewrite.java.spring.boot4.UpgradeSpringBoot_4_0</recipe>
+						<recipe>org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_5</recipe>
 						<recipe>org.openrewrite.java.format.AutoFormat</recipe>
 						<recipe>org.openrewrite.java.RemoveUnusedImports</recipe>
 					</activeRecipes>
